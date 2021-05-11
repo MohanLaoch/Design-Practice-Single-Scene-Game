@@ -10,7 +10,7 @@ public class InteractableScript : MonoBehaviour
    {
       if (cologne.gameObject.tag == "Player")
       {
-         anim.SetTrigger("player");
+         anim.SetTrigger("Player");
       }
    }
 }
