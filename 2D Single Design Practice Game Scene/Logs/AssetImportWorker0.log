@@ -15,11 +15,11 @@ C:/Users/jamoh/OneDrive/Documents/GitHub/single-screen-game/Design-Practice-Sing
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51543
+57648
 Successfully changed project path to: C:/Users/jamoh/OneDrive/Documents/GitHub/single-screen-game/Design-Practice-Single-Scene-Game/2D Single Design Practice Game Scene
 C:/Users/jamoh/OneDrive/Documents/GitHub/single-screen-game/Design-Practice-Single-Scene-Game/2D Single Design Practice Game Scene
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.04 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,260 +35,158 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000951 seconds.
+Registered in 0.000953 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 33.88 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 33.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
+- Completed reload, in  0.731 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 Registered in 0.001130 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 33.06 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 33.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.746 seconds
+- Completed reload, in  0.752 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 90.1 MB.
 System memory in use after: 90.2 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2390.
-Total: 1.947800 ms (FindLiveObjects: 0.291400 ms CreateObjectMapping: 0.057500 ms MarkObjects: 1.539400 ms  DeleteObjects: 0.058500 ms)
+Total: 2.630900 ms (FindLiveObjects: 0.239100 ms CreateObjectMapping: 0.071300 ms MarkObjects: 2.244900 ms  DeleteObjects: 0.074600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Mushroom Frames.png
-  artifactKey: Guid(be99cd92d495086468063dcdc4c4c63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Mushroom Frames.png using Guid(be99cd92d495086468063dcdc4c4c63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be308285bb729b5cecfff2656201400') in 0.105694 seconds
-  Import took 0.110251 seconds .
+  path: Assets/Animations/Bouncy Flower.controller
+  artifactKey: Guid(7d1fdb69da96f314fb99af455485ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Bouncy Flower.controller using Guid(7d1fdb69da96f314fb99af455485ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a71ec97d2ec80ba46dd0664d517a194') in 0.026514 seconds
+  Import took 0.031101 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.986796 seconds.
-  path: Assets/Sprites/Mushroom Frames.png
-  artifactKey: Guid(be99cd92d495086468063dcdc4c4c63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Mushroom Frames.png using Guid(be99cd92d495086468063dcdc4c4c63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e3475d6e4cea088747122091b90262') in 0.007630 seconds
-  Import took 0.012232 seconds .
+  Time since last request: 35.715741 seconds.
+  path: Assets/Sprites/Bouncy Flower.png
+  artifactKey: Guid(b58f233baea149649ac97661454d1527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bouncy Flower.png using Guid(b58f233baea149649ac97661454d1527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c351cb15fc57334f3b59ac75dbe40b3') in 0.078204 seconds
+  Import took 0.083014 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003230 seconds.
-  path: Assets/Sprites/Mushroom Frames.png
-  artifactKey: Guid(be99cd92d495086468063dcdc4c4c63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Mushroom Frames.png using Guid(be99cd92d495086468063dcdc4c4c63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e3475d6e4cea088747122091b90262') in 0.006629 seconds
-  Import took 0.011020 seconds .
+  Time since last request: 5.740461 seconds.
+  path: Assets/Sprites/Bouncy Flower.png
+  artifactKey: Guid(b58f233baea149649ac97661454d1527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bouncy Flower.png using Guid(b58f233baea149649ac97661454d1527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1943d4cf8947e23df898a665e37ede') in 0.009400 seconds
+  Import took 0.013970 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.975820 seconds.
-  path: Assets/Sprites/Mushroom Frames.png
-  artifactKey: Guid(be99cd92d495086468063dcdc4c4c63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Mushroom Frames.png using Guid(be99cd92d495086468063dcdc4c4c63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b25da6e5cd81b3b2fdb7866d0d79aef') in 0.020082 seconds
-  Import took 0.024238 seconds .
+  Time since last request: 19.606991 seconds.
+  path: Assets/Sprites/Bouncy Flower.png
+  artifactKey: Guid(b58f233baea149649ac97661454d1527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bouncy Flower.png using Guid(b58f233baea149649ac97661454d1527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad59cb296e7d965527267a564b55edd4') in 0.019762 seconds
+  Import took 0.024502 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 100.837236 seconds.
-  path: Assets/Animations/Mushroom Controller.controller
-  artifactKey: Guid(e4e1342d086692245bb7b3de7412dc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Mushroom Controller.controller using Guid(e4e1342d086692245bb7b3de7412dc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6953b4f00162936b43e78b41b271ef90') in 0.008482 seconds
-  Import took 0.012935 seconds .
+  Time since last request: 110.938749 seconds.
+  path: Assets/Prefabs/Bouncy Flower.prefab
+  artifactKey: Guid(a864f69a1a9fa3f4faddd10d5a5a6a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bouncy Flower.prefab using Guid(a864f69a1a9fa3f4faddd10d5a5a6a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Bouncy Flower) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Bouncy Flower) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'a4a9c656ce00d6931c91cd5d2545ae87') in 0.031440 seconds
+  Import took 0.036138 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 518.130280 seconds.
-  path: Assets/Sprites/MushroomSpore2.png
-  artifactKey: Guid(637f7c0030ddd884a82e18d15dba6526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MushroomSpore2.png using Guid(637f7c0030ddd884a82e18d15dba6526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813dfff2f5c9c8b5612a56cb66bf43ec') in 0.012649 seconds
-  Import took 0.017731 seconds .
+  Time since last request: 0.001267 seconds.
+  path: Assets/Prefabs/Bouncy Flower.prefab
+  artifactKey: Guid(a864f69a1a9fa3f4faddd10d5a5a6a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bouncy Flower.prefab using Guid(a864f69a1a9fa3f4faddd10d5a5a6a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Bouncy Flower) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Bouncy Flower) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'a4a9c656ce00d6931c91cd5d2545ae87') in 0.010009 seconds
+  Import took 0.014638 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Sprites/MushroomSpore1.png
-  artifactKey: Guid(92e1b7066b6ab6b408c803641c127710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MushroomSpore1.png using Guid(92e1b7066b6ab6b408c803641c127710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61abaa5461712827dafc8dcf6f747784') in 0.011229 seconds
-  Import took 0.015616 seconds .
+  Time since last request: 90.981593 seconds.
+  path: Assets/Sprites/Rocks.png
+  artifactKey: Guid(f7af8817fa5fa2e409f1afc9efb3a509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocks.png using Guid(f7af8817fa5fa2e409f1afc9efb3a509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c756ebb70078dcfa80f4430f53c89d') in 0.011788 seconds
+  Import took 0.015604 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.954858 seconds.
-  path: Assets/Sprites/MushroomSpore1.png
-  artifactKey: Guid(92e1b7066b6ab6b408c803641c127710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MushroomSpore1.png using Guid(92e1b7066b6ab6b408c803641c127710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a097619726a134bd19bd7dde5e96e99') in 0.009643 seconds
-  Import took 0.014089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002419 seconds.
-  path: Assets/Sprites/MushroomSpore1.png
-  artifactKey: Guid(92e1b7066b6ab6b408c803641c127710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MushroomSpore1.png using Guid(92e1b7066b6ab6b408c803641c127710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a097619726a134bd19bd7dde5e96e99') in 0.010260 seconds
-  Import took 0.014283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.443827 seconds.
-  path: Assets/Sprites/MushroomSpore2.png
-  artifactKey: Guid(637f7c0030ddd884a82e18d15dba6526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MushroomSpore2.png using Guid(637f7c0030ddd884a82e18d15dba6526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8650ef4678c9a071f39b4cf10616bb3') in 0.010430 seconds
-  Import took 0.013963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003612 seconds.
-  path: Assets/Sprites/MushroomSpore2.png
-  artifactKey: Guid(637f7c0030ddd884a82e18d15dba6526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MushroomSpore2.png using Guid(637f7c0030ddd884a82e18d15dba6526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8650ef4678c9a071f39b4cf10616bb3') in 0.010200 seconds
-  Import took 0.013271 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000874 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.659 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1931 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.8 MB.
-System memory in use after: 92.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2401.
-Total: 1.930400 ms (FindLiveObjects: 0.206800 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.663700 ms  DeleteObjects: 0.017900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 422.629519 seconds.
-  path: Assets/Sprites/MushroomSpore4.png
-  artifactKey: Guid(04b57c643d8a6b14f8241ef6e64bab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MushroomSpore4.png using Guid(04b57c643d8a6b14f8241ef6e64bab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4989b793623dfa22f703ed40341de6c1') in 0.043921 seconds
-  Import took 0.048728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001212 seconds.
-  path: Assets/Sprites/MushroomSpore3.png
-  artifactKey: Guid(b8019f33ea48d054da1f35dcfdfdfdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MushroomSpore3.png using Guid(b8019f33ea48d054da1f35dcfdfdfdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad600a75dec6cdddfa569ab10815951') in 0.011550 seconds
-  Import took 0.016214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.166774 seconds.
-  path: Assets/Sprites/MushroomSpore4.png
-  artifactKey: Guid(04b57c643d8a6b14f8241ef6e64bab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MushroomSpore4.png using Guid(04b57c643d8a6b14f8241ef6e64bab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2786273183bcc2354413daf5777b2bfe') in 0.009637 seconds
-  Import took 0.014086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003503 seconds.
-  path: Assets/Sprites/MushroomSpore4.png
-  artifactKey: Guid(04b57c643d8a6b14f8241ef6e64bab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MushroomSpore4.png using Guid(04b57c643d8a6b14f8241ef6e64bab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2786273183bcc2354413daf5777b2bfe') in 0.010296 seconds
-  Import took 0.014254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.442407 seconds.
-  path: Assets/Sprites/MushroomSpore3.png
-  artifactKey: Guid(b8019f33ea48d054da1f35dcfdfdfdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MushroomSpore3.png using Guid(b8019f33ea48d054da1f35dcfdfdfdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28cd1f675986c0bfd5e94bdfca3947c') in 0.009871 seconds
-  Import took 0.013631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001098 seconds.
-  path: Assets/Sprites/MushroomSpore3.png
-  artifactKey: Guid(b8019f33ea48d054da1f35dcfdfdfdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MushroomSpore3.png using Guid(b8019f33ea48d054da1f35dcfdfdfdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28cd1f675986c0bfd5e94bdfca3947c') in 0.009220 seconds
-  Import took 0.012039 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001070 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.673 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1931 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.9 MB.
-System memory in use after: 93.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2405.
-Total: 2.207600 ms (FindLiveObjects: 0.283900 ms CreateObjectMapping: 0.053100 ms MarkObjects: 1.852700 ms  DeleteObjects: 0.016900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000999 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1931 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.0 MB.
-System memory in use after: 93.1 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2408.
-Total: 2.144100 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.052000 ms MarkObjects: 1.862300 ms  DeleteObjects: 0.017200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 100.825828 seconds.
-  path: Assets/Prefabs/Mushroom.prefab
-  artifactKey: Guid(f7059faeaf6f9c543a9edf62ec2540e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Mushroom.prefab using Guid(f7059faeaf6f9c543a9edf62ec2540e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f721eb9b921819f16556827672270c0b') in 0.052053 seconds
-  Import took 0.056161 seconds .
+  Time since last request: 6.056214 seconds.
+  path: Assets/Sprites/Rocks.png
+  artifactKey: Guid(f7af8817fa5fa2e409f1afc9efb3a509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Rocks.png using Guid(f7af8817fa5fa2e409f1afc9efb3a509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1350a57e9b2da1531edccf90e2a86713') in 0.010838 seconds
+  Import took 0.014122 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
